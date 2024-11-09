@@ -615,7 +615,7 @@ h6 {
 }
 
 #preloader-img img {
-  height: 10rem !important;
+  height: 10rem !important; /* Ajustar tamaño de loader*/
 }
 
 /*--------------------------------------------------------------
