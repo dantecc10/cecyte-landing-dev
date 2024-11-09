@@ -19,30 +19,30 @@
 
 /* Global Colors */
 :root {
-    /* Background Color - This color is applied to the background of the entire website as well as individual sections. */
-    --background-color: #ffffff;
-    /* Default Color - This is the default color used for the majority of the text content. */
-    --default-color: #599748;
-    /* Heading Color - This color is used for titles, headings and secondary elements. */
-    --heading-color: #E7702D;
-    /* Accent Color - This is the main accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out. */
-    --accent-color: #35743E;
-    /* Contrast Color - This is a color used for text when the background color is one of the heading, accent, or default colors. Its purpose is to ensure proper contrast and readability when placed over these more dominant colors. */
-    --contrast-color: #E7702D;
+  /* Background Color - This color is applied to the background of the entire website as well as individual sections. */
+  --background-color: #ffffff;
+  /* Default Color - This is the default color used for the majority of the text content. */
+  --default-color: #599748;
+  /* Heading Color - This color is used for titles, headings and secondary elements. */
+  --heading-color: #E7702D;
+  /* Accent Color - This is the main accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out. */
+  --accent-color: #35743E;
+  /* Contrast Color - This is a color used for text when the background color is one of the heading, accent, or default colors. Its purpose is to ensure proper contrast and readability when placed over these more dominant colors. */
+  --contrast-color: #E7702D;
 }
 
 /* Nav Menu Colors */
 :root {
-    /* Nav Color - This is the default color of the main navmenu links. */
-    --nav-color: #599748;
-    /* Nav Hover Color - This color is applied to main navmenu links when they are hovered over. */
-    --nav-hover-color: #E7702D;
-    /* Nav Dropdown Background Color - This color is used as the background for dropdown boxes that appear when hovering over primary navigation items. */
-    --nav-dropdown-background-color: #ffffff;
-    /* Nav Dropdown Color - This color is used for navigation links of the dropdown items in the navigation menu. */
-    --nav-dropdown-color: #37423b;
-    /* Nav Dropdown Hover Color - Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
-    --nav-dropdown-hover-color: #35743E;
+  /* Nav Color - This is the default color of the main navmenu links. */
+  --nav-color: #599748;
+  /* Nav Hover Color - This color is applied to main navmenu links when they are hovered over. */
+  --nav-hover-color: #E7702D;
+  /* Nav Dropdown Background Color - This color is used as the background for dropdown boxes that appear when hovering over primary navigation items. */
+  --nav-dropdown-background-color: #ffffff;
+  /* Nav Dropdown Color - This color is used for navigation links of the dropdown items in the navigation menu. */
+  --nav-dropdown-color: #37423b;
+  /* Nav Dropdown Hover Color - Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-dropdown-hover-color: #35743E;
 }
 
 /* Smooth scroll */
@@ -601,31 +601,20 @@ h6 {
   inset: 0;
   z-index: 999999;
   overflow: hidden;
-  background: var(--background-color);
-  transition: all 0.6s ease-out;
+  background-color: var(--background-color);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-#preloader:before {
-  content: "";
-  position: fixed;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
-  border: 6px solid #ffffff;
-  border-color: var(--accent-color) transparent var(--accent-color) transparent;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  animation: animate-preloader 1.5s linear infinite;
+#preloader-img {
+  max-width: 100% !important;
 }
 
-@keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
+#preloader-img img {
+  height: 16rem !important;
 }
 
 /*--------------------------------------------------------------
@@ -1842,4 +1831,3 @@ section,
     transform: rotate(360deg);
   }
 }
-
