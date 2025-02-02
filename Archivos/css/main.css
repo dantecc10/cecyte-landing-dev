@@ -17,6 +17,11 @@
   --nav-font: "Poppins", sans-serif;
 }
 
+/* Global Colors Renew*/ 
+.main-official-gradient {
+background: linear-gradient(90deg, var(--main-gradient-color-1) 0%, var(--main-gradient-color-2) 100%);
+}
+
 /* Global Colors */  
 :root {
 --main-gradient-color-1:#861e34;
