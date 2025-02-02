@@ -17,7 +17,11 @@
   --nav-font: "Poppins", sans-serif;
 }
 
-/* Global Colors */
+/* Global Colors */  
+:root {
+--main-gradient-color-1:#861e34;
+--main-gradient-color-2:#af1731;
+}
 :root {
   /* Background Color - This color is applied to the background of the entire website as well as individual sections. */
   --background-color: #ffffff;
