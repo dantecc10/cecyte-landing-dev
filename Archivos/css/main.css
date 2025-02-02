@@ -32,6 +32,8 @@ background: linear-gradient(220deg, var(--main-gradient-color-1) 0%, var(--main-
 :root {
 --main-gradient-color-1:#721a2d;
 --main-gradient-color-2:#af1731;
+/* Line color - Subheader*/
+--line-color-subheader:#5d021d;
 }
 :root {
   /* Background Color - This color is applied to the background of the entire website as well as individual sections. */
