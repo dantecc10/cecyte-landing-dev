@@ -27,7 +27,8 @@ background: linear-gradient(220deg, var(--main-gradient-color-1) 0%, var(--main-
 }
 .main-official-text-color { color: var(--main-official-text-color) !important; 
 }
-
+.line-color-subheader { background-color: var(--line-color-subheader) !important;
+}
 /* Global Colors */  
 :root {
 --main-gradient-color-1:#721a2d;
