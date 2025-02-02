@@ -11,15 +11,21 @@
 # Help: https://bootstrapmade.com/color-system/
 --------------------------------------------------------------*/
 /* Fonts */
+
+
+
 :root {
   --default-font: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Raleway", sans-serif;
   --nav-font: "Poppins", sans-serif;
+  --main-official-text-color: #c09d5c;
 }
 
 /* Global Colors Renew*/ 
 .main-official-gradient {
 background: linear-gradient(220deg, var(--main-gradient-color-1) 0%, var(--main-gradient-color-2) 100%);
+}
+.main-official-text-color { color: var(--main-official-text-color) !important; 
 }
 
 /* Global Colors */  
