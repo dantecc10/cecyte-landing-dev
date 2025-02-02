@@ -19,7 +19,7 @@
 
 /* Global Colors Renew*/ 
 .main-official-gradient {
-background: linear-gradient(90deg, var(--main-gradient-color-1) 0%, var(--main-gradient-color-2) 100%);
+background: linear-gradient(220deg, var(--main-gradient-color-1) 0%, var(--main-gradient-color-2) 100%);
 }
 
 /* Global Colors */  
