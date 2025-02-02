@@ -22,12 +22,15 @@
 }
 
 /* Global Colors Renew*/ 
+.main-buttons-style { border: none !important; 
+}
+
 .main-official-gradient {
 background: linear-gradient(220deg, var(--main-gradient-color-1) 0%, var(--main-gradient-color-2) 100%);
 }
 .main-official-text-color { color: var(--main-official-text-color) !important; 
 }
-.line-color-subheader { background-color: var(--line-color-subheader) !important;
+.line-color-subheader, .main-buttons-style { background-color: var(--line-color-subheader) !important;
 }
 .line-color-subheader-text { color: var(--line-color-subheader) !important;
 }
