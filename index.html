@@ -552,12 +552,19 @@
      </div>
 
 <div class="container-fluid position-relative">
-  <img src="Archivos/img/back-element-01.svg" alt="Imagen SVG de fondo footer" class="bg-svg2">
+  <img src="Archivos/img/back-element-01.svg" alt="Imagen SVG de fondo" class="bg-svg">
 </div>
 
 <style>
   /* Estilo para la imagen SVG */
-  .bg-svg2 {
+  .bg-svg {
+    width: 100%;         /* Hace que la imagen ocupe todo el ancho disponible */
+    max-width: 1920px;   /* Establece un ancho máximo de 1920px */
+    height: auto;        /* Mantiene la proporción de la imagen */
+    display: block;      /* Elimina el espacio en blanco debajo de la imagen */
+  }
+
+.bg-svg01 {
     width: 100%;         /* Hace que la imagen ocupe todo el ancho disponible */
     max-width: 1920px;   /* Establece un ancho máximo de 1920px */
     height: auto;        /* Mantiene la proporción de la imagen */
