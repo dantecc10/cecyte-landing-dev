@@ -129,12 +129,40 @@
     </section><!-- /Hero Section -->
 
    
+ <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container">
+
+<div class="row gy-4">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
+<!-- Imagen pequeña que al hacer clic abre el modal -->
+<img src="Archivos/img/INFO_ADMISIÓN_25.jpg" alt="Imagen" class="img-fluid" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openImage(this)">
+
+<!-- Modal de Bootstrap para ver la imagen más grande -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="imageModalLabel">Oferta Educativa 2025</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Imagen ampliada -->
+        <img src="Archivos/img/INFO_ADMISIÓN_25.jpg" alt="Imagen de la oferta educativa 2025" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
  <!-- Prueba sección de galeria Imagen ampliadas -->
 <div class="container">
 <div class="row gy-4">
 <section id="gallery">
     <div class="image-container col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
-      <img src="Archivos/img/INFO_ADMISIÓN_25.jpg" alt="Imagen de la oferta educativa 2025" onclick="openImage(this)">
+      <img src="Archivos/img/INFO_ADMISIÓN_25.jpg" alt="Imagen CECyTEs y EMSaD" onclick="openImage(this)">
   </div>
 </section>
 
